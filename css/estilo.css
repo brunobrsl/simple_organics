@@ -1,0 +1,463 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    margin-top: 1%;
+    align-content: center;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    border: 0;
+    width: 50%;
+    border-top: 1px solid black;
+  }
+  
+.barra {
+    font-size: 0.9em;
+    color: black;
+    margin-bottom: 15%;
+}
+
+.barra-direita {
+    margin-right: 50px;
+}
+
+.barra:hover {
+    color: #9fda22;
+}
+
+.divisor {
+	width: 0px;
+	background: black;
+	margin: 10px 85px;
+}
+
+#titulo {
+    background-color: #f0f0f0;
+    color: #116625;
+    text-align: center;
+}
+
+#titulo p {
+    font-size: 5em;
+    padding-top: 10%;
+}
+
+#titulo p.legenda {
+    font-size: 1.2em;
+    padding-top: 0%;
+    padding-bottom: 5.5%;
+    margin-bottom: 0;
+}
+
+.apresentacao {
+    width: 1080px;
+    height: 718px;
+}
+
+.carousel-item {
+    height: 700px;
+}
+
+#produtos {
+    text-align: center;
+    margin-bottom: -100px;
+}
+
+#produtos .card {
+    border: 0px;
+}
+
+#produtos .card a {
+    background-color: #116625;
+    border: 1px solid #116625;
+}
+
+#produtos .card a:hover {
+    background-color: #9fda22;
+    border: 1px solid #9fda22;
+}
+
+#produtos .card p {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.carousel-indicators {
+    bottom: 115px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 0%;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #116625;
+    
+}
+
+#descricao {
+    background-color: #116625;
+    color: #fff;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+#descricao h2 {
+    font-size: 2.3em;
+    margin-bottom: 50px;
+}
+
+#descricao p {
+    padding-bottom: 120px;
+}
+
+.descricao-produtos {
+    text-align: center;
+    width: 340px;
+    height: 450px;
+}
+
+.descricao-produtos i {
+    margin-bottom: 70px;
+}
+
+.descricao-produtos h4 {
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.descricao-produtos p {
+    font-weight: 100;
+    font-size: 0.9em;
+    line-height: 2.1;
+}
+
+#sanduiche {
+    margin-left: 300px;
+}
+
+#doce {
+    margin-right: 300px;
+}
+
+#sobre-nos {
+    background-color: #fff;
+    color: #116625;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+#sobre-nos h2 {
+    font-size: 2.3em;
+    margin-bottom: 50px;
+}
+
+#sobre-nos h6 {
+    font-size: 1.1em;
+    margin-bottom: 50px;
+}
+
+#sobre-nos p {
+    line-height: 2.1;
+    font-weight: 100;
+    font-size: 0.9em;
+    height: 120px;
+    width: 780px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#imagem {
+    height: 566px;
+    width: 100%;
+}
+
+#visita {
+    background-color: #f0f0f0;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    padding-right: 430px;
+}
+
+#card-horario {
+    background-color: #fff;
+    color: #116625;
+    text-align: left;
+    width: 470px;
+    height: 340px;
+    padding: 50px;
+    margin-left: 440px;
+    display: inline-block;
+}
+
+#card-horario h4 {
+    font-weight: 400;
+    font-size: 1.4em;
+    letter-spacing: 0.4px;
+    margin-bottom: 50px;
+}
+
+#card-horario p {
+    font-weight: 100;
+    letter-spacing: 0.4px;
+    margin-bottom: 35px;
+}
+
+#card-horario .btn-primary {
+    font-size: 0.8em;
+    padding: 10px 20px 10px 20px;
+    letter-spacing: 0.5px;
+    color: #116625;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #116625;
+}
+
+#card-horario .btn-primary:hover {
+    color: #fff;
+    background-color: #116625;
+}
+
+#img-card {
+    width: 560px;
+    height: 478px;
+    float: left;
+    margin-top: -410px;
+    margin-left: 820px;
+}
+
+#contato {
+    background-color: #116625;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#contato h2 {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+}
+
+#contato form {
+    text-align: left;
+    padding-left: 150px;
+    font-size: 0.9em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+#contato input {
+    background-color: #116625;
+    color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid white;
+    margin-left: -2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#contato input:hover {
+    border: 1px solid white;
+    padding-left: 5px;
+}
+
+#contato input:focus {
+    padding-left: 5px;
+    color: white;
+    margin-left: -2px;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+textarea {
+    background-color: #116625;
+    color: white;
+    height: 100px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid white;
+    margin-left: -2px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    width: 100%;
+    margin-bottom: 8px;
+    resize: none;
+}
+
+textarea:focus {
+    padding-left: 5px;
+}
+
+textarea:hover {
+    border: 1px solid white;
+    outline: none;
+    padding-left: 5px;
+}
+
+#btn-contato {
+    width: 100%;
+    color: #116625;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    margin-left: -2px;
+    padding: 10px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+#btn-contato:hover {
+    color: #fff;
+    background-color: #a2c2a7;
+    border: 0;
+}
+
+#inscricao {
+    background-color: #fff;
+    color: #116625;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 1.4em;
+    letter-spacing: 0.4px;
+}
+
+#inscricao form {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+#inscricao input {
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    background-color: #fff;
+    color: #116625;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #116625;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 40%;
+    margin-bottom: 8px;
+    font-size: 0.8em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+#inscricao input:hover {
+    border: 1px solid #116625;
+    padding-left: 5px;
+}
+
+#inscricao input:focus {
+    padding-left: 5px;
+    margin-left: -2px; 
+    border: 1px solid #116625;
+    outline: none;
+}
+
+#inscricao ::placeholder {
+    color: #116625;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+#btn-inscricao {
+    width: 40%;
+    color: #fff;
+    background-color: #116625;
+    border: 0;
+    border-radius: 0;
+    padding: 5px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+#btn-inscricao:hover {
+    color: #fff;
+    background-color: #a2c2a7;
+    border: 0;
+}
+
+footer {
+	background: #fff;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #116625;
+	font-size: 0.8em;
+    margin-left: 60px;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: #9fda22;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #116625;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin-left: 60px;
+}
+
+.btn-logo {
+    color: #116625;
+    background-color: #fff;
+    border: 0;
+}
+
+.btn-logo:hover {
+    color: #fff;
+    background-color: #116625;
+    border: 0;
+}
+
+#direitos {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: #116625;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 50px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
